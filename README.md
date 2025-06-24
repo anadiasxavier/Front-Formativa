@@ -1,6 +1,6 @@
 # Projeto Formativo - Front-End
 
-#Como rodar
+# Como rodar
 
 **1.** Clone o repositório do projeto:
 git clone https://github.com/anadiasxavier/Front-Formativa.git
