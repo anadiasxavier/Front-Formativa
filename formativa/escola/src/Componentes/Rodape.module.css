@@ -1,0 +1,14 @@
+/* css footer */
+.footer {
+  background-color: #393874;         
+  color: #eee;                    
+  padding: 15px 0;                
+  text-align: center;              
+  font-size: 14px;                                
+  bottom: 0;                      
+  width: 100%;                    
+  z-index: 1000;      
+  font-family: "Inter", sans-serif;
+  margin-top: 40px;
+         
+}

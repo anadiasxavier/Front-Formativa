@@ -1,0 +1,68 @@
+.conteinerLogin {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5; 
+  font-family: Arial, sans-serif;
+}
+
+.boxLogin {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(57, 56, 116, 0.3); 
+  width: 450px;
+  height: 300px;
+}
+
+.titulo {
+  margin-bottom: 25px;
+  color: #393874;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+  border-color: #393874;
+  outline: none;
+  box-shadow: 0 0 5px #393874;
+}
+
+.submitButton {
+  padding: 12px;
+  background-color: #393874;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.submitButton:hover {
+  background-color: #2e2b61;
+}
+
+.error {
+  color: #d9534f; 
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}

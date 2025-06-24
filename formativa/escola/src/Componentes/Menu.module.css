@@ -1,0 +1,56 @@
+/* Menu CSS */
+.conteiner {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tableMenu {
+   border-collapse: separate;
+  border-spacing: 1.5rem 1rem; 
+  margin: 0 auto; 
+  width: max-content; 
+}
+
+.tdMenu {
+  background-color: #393874a4;
+  border-radius: 12px;
+  width: 180px;
+  height: 160px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(57, 56, 116, 0.5);
+  cursor: pointer;
+  user-select: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.tdMenu:hover,
+.tdMenu:focus-within {
+  box-shadow: 0 6px 12px rgba(57, 56, 116, 0.7);
+  outline: none;
+}
+
+.tdMenu img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  pointer-events: none;
+}
+
+.tdMenu label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: block;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.tdMenu label:hover{
+  color: #1B1A51;
+}
+.tdMenu a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+
